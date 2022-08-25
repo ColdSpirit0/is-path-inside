@@ -1,33 +1,25 @@
 {
-	"name": "is-path-inside",
-	"version": "4.0.0",
-	"description": "Check if a path is inside another path",
+	"name": "is-path-inside-commonjs",
+	"version": "1.0.0",
+	"description": "Check if a path is inside another path, commonjs version",
 	"license": "MIT",
-	"repository": "sindresorhus/is-path-inside",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"repository": "https://github.com/ColdSpirit0/is-path-inside-commonjs",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "ColdSpirit",
+		"url": "https://github.com/ColdSpirit0"
 	},
-	"type": "module",
 	"exports": {
         ".": {
-            "import": "./index.js",
             "require": "./index.cjs",
-            "types": "./index.d.ts"
+            "types": "./index.d.cts"
         }
     },
-	"engines": {
-		"node": ">=12"
-	},
 	"scripts": {
 		"test": "xo && ava && tsd"
 	},
 	"files": [
-		"index.js",
 		"index.cjs",
-		"index.d.ts"
+		"index.d.cts"
 	],
 	"keywords": [
 		"path",

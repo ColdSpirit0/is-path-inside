@@ -1,17 +1,19 @@
-# is-path-inside
+# is-path-inside-commonjs
 
 > Check if a path is inside another path
+
+CommonJS version of https://github.com/sindresorhus/is-path-inside
 
 ## Install
 
 ```
-$ npm install is-path-inside
+$ npm install is-path-inside-commonjs
 ```
 
 ## Usage
 
 ```js
-import isPathInside from 'is-path-inside';
+import isPathInside from 'is-path-inside-commonjs';
 
 isPathInside('a/b/c', 'a/b');
 //=> true
@@ -45,15 +47,3 @@ The path that should be inside `parentPath`.
 Type: `string`
 
 The path that should contain `childPath`.
-
----
-
-<div align="center">
-	<b>
-		<a href="https://tidelift.com/subscription/pkg/npm-is-path-inside?utm_source=npm-is-path-inside&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
-	</b>
-	<br>
-	<sub>
-		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
-	</sub>
-</div>

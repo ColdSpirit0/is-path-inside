@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import isPathInside from './index.js';
+import isPathInside from './index.cjs';
 
 expectType<boolean>(isPathInside('a/b/c', 'a/b'));
