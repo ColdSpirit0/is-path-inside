@@ -1,6 +1,6 @@
 {
 	"name": "is-path-inside-commonjs",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Check if a path is inside another path, commonjs version",
 	"license": "MIT",
 	"repository": "https://github.com/ColdSpirit0/is-path-inside-commonjs",

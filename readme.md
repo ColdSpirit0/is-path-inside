@@ -7,7 +7,7 @@ CommonJS version of https://github.com/sindresorhus/is-path-inside
 ## Install
 
 ```
-$ npm install is-path-inside-commonjs
+npm install is-path-inside-commonjs
 ```
 
 ## Usage
