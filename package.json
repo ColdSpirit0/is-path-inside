@@ -11,7 +11,7 @@
 	"exports": {
         ".": {
             "require": "./index.cjs",
-            "types": "./index.d.cts"
+            "types": "./index.d.ts"
         }
     },
 	"scripts": {
@@ -19,7 +19,7 @@
 	},
 	"files": [
 		"index.cjs",
-		"index.d.cts"
+		"index.d.ts"
 	],
 	"keywords": [
 		"path",
